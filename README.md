@@ -18,10 +18,9 @@ Apply Feature Generation techniques to all the feature of the data set
 Save the data to the file
 
 
-# CODE
-Developed by: CHAITANYA P S
-
-Register number : 212222230024
+## CODE
+#Developed by: CHAITANYA P S
+#Register number : 212222230024
 
 ## Data:
 ```
