@@ -24,6 +24,7 @@ Developed by: CHAITANYA P S
 Register number : 212222230024
 
 ## Data:
+## Data.csv:
 ```
 import pandas as pd
 df=pd.read_csv("data.csv")
@@ -32,10 +33,12 @@ print(df)
 import category_encoders as ce
 be=ce.BinaryEncoder()
 df1=be.fit_transform(df["bin_1"])
+df["bin_1"] = be.fit_transform(df["bin_1"])
 df1
 
 be=ce.BinaryEncoder()
 df2=be.fit_transform(df["bin_2"])
+df["bin_2"] = be.fit_transform(df["bin_2"])
 df2
 
 df1=df.copy()
@@ -55,8 +58,9 @@ edu=['High School','Diploma','Bachelors','Masters','PhD']
 oe2=OrdinalEncoder(categories=[edu])
 df1['Ord_2']= oe2.fit_transform(df1[["Ord_2"]])
 df1
-
+```
 ## SCALING:
+```
 from sklearn.preprocessing import MinMaxScaler
 sc=MinMaxScaler()
 df2=pd.DataFrame(sc.fit_transform(df1),columns=(['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target']))
@@ -76,15 +80,16 @@ from sklearn.preprocessing import RobustScaler
 sc3=RobustScaler()
 df5=pd.DataFrame(sc3.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'City', 'Ord_1','Ord_2','Target'])
 df5
-
 ```
+
 ## Encoding data:
 ```
 import pandas as pd
 df=pd.read_csv("Encoding Data.csv")
 df
-
+```
 ## GENERATION
+```
 import category_encoders as ce
 be=ce.BinaryEncoder()
 ndf=be.fit_transform(df["bin_1"])
@@ -107,8 +112,9 @@ temp=['Cold','Warm','Hot']
 oe2=OrdinalEncoder(categories=[temp])
 df1['ord_2'] = oe2.fit_transform(df1[['ord_2']])
 df1
-
+```
 ## SCALING:
+```
 from sklearn.preprocessing import MinMaxScaler
 sc=MinMaxScaler()
 df0=pd.DataFrame(sc.fit_transform(df1),columns=['id', 'bin_1', 'bin_2', 'nom_0','ord_2'])
