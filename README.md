@@ -32,12 +32,10 @@ print(df)
 import category_encoders as ce
 be=ce.BinaryEncoder()
 df1=be.fit_transform(df["bin_1"])
-df["bin_1"] = be.fit_transform(df["bin_1"])
 df1
 
 be=ce.BinaryEncoder()
 df2=be.fit_transform(df["bin_2"])
-df["bin_2"] = be.fit_transform(df["bin_2"])
 df2
 
 df1=df.copy()
