@@ -19,9 +19,9 @@ Save the data to the file
 
 
 ## CODE
-#Developed by: CHAITANYA P S
+Developed by: CHAITANYA P S
 
-#Register number : 212222230024
+Register number : 212222230024
 
 ## Data:
 ```
