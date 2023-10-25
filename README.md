@@ -113,7 +113,6 @@ df2
 
 - Original Encoder:<br>
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/a1d8f594-138d-40ca-8bd6-34fc61aea169" height=150 width=350>
-
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/82ba85de-0a39-45ba-9320-625cdfef09e5" height=150 width=350>
 
 - Label Encoder:<br>
@@ -121,7 +120,6 @@ df2
 
 - Binary Encoder:<br>
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/f909b514-5252-48f4-8777-d64923f523fd" height=150 width=350>
-
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/911205b9-1133-4d12-9f23-76ae4986ab8d" height=150 width=350>
 
 ## (ii) Encoding data.csv
@@ -139,7 +137,6 @@ df2
 
 - Binary Encoder:<br>
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/4ba2a8ba-cb12-46f2-b74b-39d2393c7d0e" height=250 width=250>
-
 <img src="https://github.com/Janarthanan2/ODD2023-Datascience-Ex-05/assets/119393515/195af4af-0fc1-49d9-a110-466a673c2acf" height=250 width=250>
 
 ## (iii) BMI.csv
